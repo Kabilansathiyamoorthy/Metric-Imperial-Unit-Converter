@@ -12,7 +12,7 @@ button.addEventListener("click",function()
     let r1=a*meter;
     let r2=a*liter;
     let r3=a*kg;
-    length_result.innerHTML=`${a} meters = ${r1.toFixed(3)}`;
-    volume_result.innerHTML=`${a} liters = ${r2.toFixed(3)}`;
-    mass_result.innerHTML=`${a} kilos = ${r3.toFixed(3)}`;
+    length_result.innerHTML=`${a} meters = ${(a * meter).toFixed(3)} feet | ${a} feet =${(a / meter).toFixed(3)} meters`;;
+    volume_result.innerHTML=`${a} liters = ${(a * liter).toFixed(3)} gallons | ${a} gallons =${(a / liter).toFixed(3)} liters`;
+    mass_result.innerHTML=`${a} kilos = ${(a * kg).toFixed(3)} pounds | ${a} pounds = ${(a / kg).toFixed(3)} kilos`;
 });
