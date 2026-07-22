@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    background-color: #F4F4F4;;
+}
 .one {
     display: flex;
     flex-direction: column;
@@ -9,22 +13,23 @@
     color: white;
 }
 .container{
-    background-color:#FFFFFF;
+    background-color:#F4F4F4;
+    padding: 20px;
 }
 .length{
     text-align: center;
     height: 75px;
-    background-color: antiquewhite;
+    background-color: white;
 }
 .volume{
     text-align: center;
     height: 75px;
-    background-color: antiquewhite;
+    background-color: white;
 }
 .mass{
     text-align: center;
     height: 75px;
-    background-color: antiquewhite;
+    background-color: white;
 }
 h2{
     color: #5A537B;
